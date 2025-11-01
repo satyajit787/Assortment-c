@@ -16,12 +16,12 @@ int main()
         cout << "a" << "[" << i << "]" << " = ";
         cin >> array[i];
     }
-
+   cout<< "Neggativ elements form an Araay : ";
     for (int i = 0; i < col; i++)
     {
         if (array[i] < 0)
         {
-            cout<< "Neggativ elements form an Araay : " << array[i]<<", ";
+            cout << array[i]<<", ";
            counter= true;
         }
         
@@ -35,3 +35,4 @@ int main()
 
 
         }
+
