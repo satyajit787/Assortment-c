@@ -21,7 +21,7 @@ int main()
     {
         if (array[i] < 0)
         {
-            cout << array[i];
+            cout<< "Neggativ elements form an Araay : " << array[i]<<", ";
            counter= true;
         }
         
@@ -32,5 +32,6 @@ int main()
         cout << " Not a nagetiv number ";
     }
     
+
 
         }
